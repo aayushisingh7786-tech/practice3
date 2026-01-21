@@ -1,0 +1,6 @@
+<h1>Welcome, {{ user.username }}!</h1>
+<p>This is your private dashboard.</p>
+<form action="{% url 'logout' %}" method="post">
+    {% csrf_token %}
+    <button type="submit">Logout</button>
+</form>
