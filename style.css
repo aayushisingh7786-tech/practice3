@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Includes padding/border in the element's total width */
+}
+
+/* BODY: Sets the main font and background color */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* CONTAINER: Keeps content centered and readable */
+main,
+header,
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* Centers the box horizontally */
+    padding: 0 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Includes padding/border in the element's total width */
+}
+
+/* BODY: Sets the main font and background color */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* CONTAINER: Keeps content centered and readable */
+main,
+header,
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* Centers the box horizontally */
+    padding: 0 20px;
+}
+section {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS & SKILLS LISTS */
+#skills ul {
+    list-style-position: inside;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+}
+
+/* BUTTONS */
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+/* MOBILE VIEW: Triggers only on screens smaller than 768px */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        /* Stack logo and nav vertically */
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Stack links vertically */
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        /* Add vertical spacing */
+    }
+}
